@@ -1,0 +1,29 @@
+{
+  "name": "pigalle-loader-alpha",
+  "version": "0.0.1",
+  "description": "Provides ways to load data from different sources.",
+  "main": "dist/pigalle-loader-alpha.dist.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigalle-io/pigalle-loader.git"
+  },
+  "keywords": [
+    "pigalle.io",
+    "loader",
+    "data",
+    "settings",
+    "configuration"
+  ],
+  "author": "pigalle.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pigalle-io/pigalle-loader/issues"
+  },
+  "homepage": "https://github.com/pigalle-io/pigalle-loader#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
