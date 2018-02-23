@@ -1,8 +1,15 @@
 ```javascript
 
-const {githubUriHttpsParser} = require('github-uri-https-parser');
 
-githubUriHttpsParser('https://github.com/9fv/node-github-uri-https-parser');
-# > {"username": "9fv", "repository": "node-github-uri-https-parser"}
+const {importer} = require('@pigalle/core.importer')
+
+// Load an existing Pigalle plugin
+const tcpTransporter = importer('@pigalle/transporter.tcp')
+
+// Load an non-existent plugin
+const nonExistentPlugin = importer('heurk') // ... throw a {PluginNotFoundError} exception.
+
+// Load an existent module, but not a valid Pigalle plugin
+const notValidPlugin = importer('uuid') // ... throw a {NotValidPluginError} exception.
 
 ```

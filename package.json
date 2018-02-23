@@ -1,5 +1,5 @@
 {
-  "name": "@pigalle/core.import",
+  "name": "@pigalle/core.importer",
   "version": "0.1.0",
   "description": "Mechanisms to dynamically import plugins into the Pigalle framework. ",
   "main": "lib/index.js",
@@ -26,6 +26,9 @@
       "javascript",
       "microlibrary",
       "import",
+      "importer",
+      "require",
+      "dynamic",
       "plugin",
       "pigalle",
       "pigalle.io"
@@ -56,6 +59,9 @@
     "github-uri-https-parser": "^0.1.1-alpha1"
   },
   "dependencies": {
+    "@9fv.io/undefined-error": "^1.0.0",
+    "@pigalle/core.base.class": "^0.5.2",
+    "@pigalle/core.base.error": "^1.0.1",
     "lodash": "^4.17.5"
   }
 }
