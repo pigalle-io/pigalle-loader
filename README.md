@@ -2,29 +2,29 @@
 [npm-badge-url]: https://www.npmjs.com/package/@pigalle/core.importer
 [npm-downloads-badge]: https://img.shields.io/npm/dt/@pigalle/core.importer.svg
 [npm-downloads-url]: https://npmjs.org/package/@pigalle/core.importer
-[travis-badge]: https://img.shields.io/travis/pigalle-io/pigalle.core.import/master.svg?label=TravisCI
-[travis-badge-url]: https://travis-ci.org/pigalle-io/pigalle.core.import
-[circle-badge]: https://circleci.com/gh/pigalle-io/pigalle.core.import/tree/master.svg?style=svg&circle-token=
-[circle-badge-url]: https://circleci.com/gh/pigalle-io/pigalle.core.import/tree/master
-[coveralls-badge]: https://coveralls.io/repos/github/pigalle-io/pigalle.core.import/badge.svg?branch=master
-[coveralls-badge-url]: https://coveralls.io/github/pigalle-io/pigalle.core.import?branch=master
-[codeclimate-badge]: https://img.shields.io/codeclimate/github/pigalle-io/pigalle.core.import.svg
-[codeclimate-badge-url]: https://codeclimate.com/github/pigalle-io/pigalle.core.import
-[ember-observer-badge]: http://emberobserver.com/badges/pigalle.core.import.svg
-[ember-observer-badge-url]: http://emberobserver.com/addons/pigalle.core.import
+[travis-badge]: https://img.shields.io/travis/pigalle-io/pigalle.core.importer/master.svg?label=TravisCI
+[travis-badge-url]: https://travis-ci.org/pigalle-io/pigalle.core.importer
+[circle-badge]: https://circleci.com/gh/pigalle-io/pigalle.core.importer/tree/master.svg?style=svg&circle-token=
+[circle-badge-url]: https://circleci.com/gh/pigalle-io/pigalle.core.importer/tree/master
+[coveralls-badge]: https://coveralls.io/repos/github/pigalle-io/pigalle.core.importer/badge.svg?branch=master
+[coveralls-badge-url]: https://coveralls.io/github/pigalle-io/pigalle.core.importer?branch=master
+[codeclimate-badge]: https://img.shields.io/codeclimate/github/pigalle-io/pigalle.core.importer.svg
+[codeclimate-badge-url]: https://codeclimate.com/github/pigalle-io/pigalle.core.importer
+[ember-observer-badge]: http://emberobserver.com/badges/pigalle.core.importer.svg
+[ember-observer-badge-url]: http://emberobserver.com/addons/pigalle.core.importer
 [license-badge]: https://img.shields.io/npm/l/@pigalle/core.importer.svg
 [license-badge-url]: LICENSE.md
-[dependencies-badge]: https://img.shields.io/david/pigalle-io/pigalle.core.import.svg
-[dependencies-badge-url]: https://david-dm.org/pigalle-io/pigalle.core.import
-[devDependencies-badge]: https://img.shields.io/david/dev/pigalle-io/pigalle.core.import.svg
-[devDependencies-badge-url]: https://david-dm.org/pigalle-io/pigalle.core.import#info=devDependencies
-[greenkeeper-badge]: https://badges.greenkeeper.io/pigalle-io/pigalle.core.import.svg
+[dependencies-badge]: https://img.shields.io/david/pigalle-io/pigalle.core.importer.svg
+[dependencies-badge-url]: https://david-dm.org/pigalle-io/pigalle.core.importer
+[devDependencies-badge]: https://img.shields.io/david/dev/pigalle-io/pigalle.core.importer.svg
+[devDependencies-badge-url]: https://david-dm.org/pigalle-io/pigalle.core.importer#info=devDependencies
+[greenkeeper-badge]: https://badges.greenkeeper.io/pigalle-io/pigalle.core.importer.svg
 [greenkeeper-badge-url]: https://greenkeeper.io/
 [standardjs-badge]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [standardjs-badge-url]: https://standardjs.com
 
 
-# pigalle.core.import
+# pigalle.core.importer
 
 Mechanisms to dynamically import plugins into the Pigalle framework. 
 
@@ -127,7 +127,7 @@ Untested at this time.
 
 ## <a name="issues"> Issues
 
-Feel free to [submit issues](https://github.com/pigalle-io/pigalle.core.import/issues) and enhancement requests.
+Feel free to [submit issues](https://github.com/pigalle-io/pigalle.core.importer/issues) and enhancement requests.
 
 ## <a name="contributing"> Contributing
 

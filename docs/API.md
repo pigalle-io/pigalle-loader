@@ -77,8 +77,10 @@ const notValidPlugin = importer('uuid') // ... throw a {NotValidPluginError} exc
 
 * [importer](#module_importer)
     * [~Importer](#module_importer..Importer)
-        * [new Importer(...args)](#new_module_importer..Importer_new)
+        * [new Importer(args)](#new_module_importer..Importer_new)
         * _instance_
+            * [.import()](#module_importer..Importer+import) ⇒ <code>object</code>
+            * [.require(name)](#module_importer..Importer+require) ⇒ <code>object</code>
             * [.getPluginPathFromLocal()](#module_importer..Importer+getPluginPathFromLocal) ⇒ <code>string</code>
             * [.getPluginPathFromLocalJavascriptFile()](#module_importer..Importer+getPluginPathFromLocalJavascriptFile) ⇒ <code>string</code>
             * [.getPluginPathFromLocalDirectoryIndex()](#module_importer..Importer+getPluginPathFromLocalDirectoryIndex) ⇒ <code>string</code>
@@ -100,8 +102,10 @@ An helper to facilitate the import of dependencies and plugins.
 **Access**: public  
 
 * [~Importer](#module_importer..Importer)
-    * [new Importer(...args)](#new_module_importer..Importer_new)
+    * [new Importer(args)](#new_module_importer..Importer_new)
     * _instance_
+        * [.import()](#module_importer..Importer+import) ⇒ <code>object</code>
+        * [.require(name)](#module_importer..Importer+require) ⇒ <code>object</code>
         * [.getPluginPathFromLocal()](#module_importer..Importer+getPluginPathFromLocal) ⇒ <code>string</code>
         * [.getPluginPathFromLocalJavascriptFile()](#module_importer..Importer+getPluginPathFromLocalJavascriptFile) ⇒ <code>string</code>
         * [.getPluginPathFromLocalDirectoryIndex()](#module_importer..Importer+getPluginPathFromLocalDirectoryIndex) ⇒ <code>string</code>
@@ -114,13 +118,34 @@ An helper to facilitate the import of dependencies and plugins.
 
 <a name="new_module_importer..Importer_new"></a>
 
-##### new Importer(...args)
+##### new Importer(args)
 Create a new instance of {Importer}.
 
 
 | Param | Description |
 | --- | --- |
-| ...args | The arguments. |
+| args | The arguments. |
+
+<a name="module_importer..Importer+import"></a>
+
+##### importer.import() ⇒ <code>object</code>
+Import the module from name.
+
+**Kind**: instance method of [<code>Importer</code>](#module_importer..Importer)  
+**Returns**: <code>object</code> - The loaded module.  
+**Access**: public  
+<a name="module_importer..Importer+require"></a>
+
+##### importer.require(name) ⇒ <code>object</code>
+Load a module using require()
+
+**Kind**: instance method of [<code>Importer</code>](#module_importer..Importer)  
+**Returns**: <code>object</code> - - The loaded module.  
+**Access**: public  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| name | <code>string</code> | The module name. |
 
 <a name="module_importer..Importer+getPluginPathFromLocal"></a>
 
@@ -238,6 +263,6 @@ An helper function to import a Pigalle plugin.
 
 ***
 
-_Documentation generated on Fri, 23 Feb 2018 15:11:22 GMT_
+_Documentation generated on Sat, 24 Feb 2018 15:57:08 GMT_
 
 **Copyright &copy; 2018 [SAS 9 Février](https://9fevrier.com/)**
